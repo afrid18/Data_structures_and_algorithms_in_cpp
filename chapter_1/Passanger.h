@@ -1,15 +1,17 @@
 using namespace std;
-
 enum MealType{NO_PREF, REGULAR, LOW_FAT, VEGETARIAN};
 
 class Passanger {
     public:
         Passanger();
-        Passanger(const string& nm, MealType mp, const string & ffn);
+        Passanger(const string& nm, MealType mp, const string & ffn = "NONE");
         Passanger(const Passanger& pass);
         bool isFrequentFlyer() const;
         void makeFrequentFlyer(const string & newFreqFlyerNo);
+        string getPassangerName();
+        MealType getMeals();
 
+    private:
         string name;
         MealType mealPref;
         bool isFreqFlyer;
@@ -47,3 +49,10 @@ void Passanger::makeFrequentFlyer(const string & newFreqFlyerNo) {
     freqFlyerNo = newFreqFlyerNo;
 }
 
+string Passanger::getPassangerName() {
+    return name;
+}
+
+MealType Passanger::getMeals() {
+    return mealPref;
+}
