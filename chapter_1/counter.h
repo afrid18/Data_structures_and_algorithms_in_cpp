@@ -19,3 +19,4 @@ void Counter::increaseBy(int x) {
     count += x;
 }
 
+
