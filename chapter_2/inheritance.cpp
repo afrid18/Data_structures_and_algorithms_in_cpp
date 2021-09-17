@@ -34,12 +34,22 @@ Student::Student(int id, string name0, string mjr, int gy) :
     major(mjr),
     gradYear(gy) {}
 
+// Prototypes
+
+void display(Student&);
+
 
 int main(void) {
     Student santosh(101, "Santosh", "CSE", 2023);
-    cout << santosh.getID() << endl;
-    cout << santosh.getname()<< endl;
-    cout << santosh.getMajor() << endl;
-    cout << santosh.getGY() << endl;
+    Student* sushanth = new Student(102, "Sushanth", "CSE", 2023);
+    display(*sushanth);
+    display(santosh);
     return 0;
+}
+
+void display(Student& s) {
+    cout << s.getID() << endl;
+    cout << s.getname()<< endl;
+    cout << s.getMajor() << endl;
+    cout << s.getGY() << endl;
 }
