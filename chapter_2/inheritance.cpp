@@ -7,8 +7,8 @@ class Person {
         string name;
     public:
         Person(int id, string name0);
-        int getID() {return ID;}
-        string getname() {
+        int getID() const {return ID;}
+        string getname() const {
             return name;
         }
 };
@@ -25,8 +25,8 @@ class Student : public Person {
 
     public:
         Student(int id, string name0, string mjr, int gy);
-        int getGY() { return gradYear; }
-        string getMajor() {return major;}
+        int getGY() const { return gradYear; }
+        string getMajor() const {return major;}
 };
 
 Student::Student(int id, string name0, string mjr, int gy) :
@@ -36,7 +36,7 @@ Student::Student(int id, string name0, string mjr, int gy) :
 
 // Prototypes
 
-void display(Student&);
+void display(const Student&);
 
 
 int main(void) {
@@ -47,7 +47,7 @@ int main(void) {
     return 0;
 }
 
-void display(Student& s) {
+void display(const Student& s) {
     cout << s.getID() << endl;
     cout << s.getname()<< endl;
     cout << s.getMajor() << endl;
