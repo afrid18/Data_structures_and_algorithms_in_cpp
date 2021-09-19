@@ -10,7 +10,7 @@ class MathException {
             : errMsg(err) {}
         string getError() { return errMsg + "\n"; }
     private:
-        string errMsg;
+        string errMsg = "Some MathCalculation Exception!";
 };
 
 // ZeroDivide exception class that has inherited MathException class
@@ -34,12 +34,15 @@ class NegativeRootError: public MathException {
 
 int main(void) {
     try {
-        int divisor = 0;
-        if (divisor == 0)
-            throw zeroDivideError("Trying to divide by 0");
+        int number = -144;
+        if (number < 0)
+            throw NegativeRootError("LoL 🤣🤣 You are trying to perform negative square root of a number!");
     }
     catch(zeroDivideError zde) {
-        cout << "HAha dividing by zero 🤣" << endl;
+        cout << zde.getError() << endl;
+    }
+    catch(NegativeRootError nre) {
+        cout << nre.getError();
     }
     return 0;
 }
