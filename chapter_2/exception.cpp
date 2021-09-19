@@ -14,22 +14,32 @@ class MathException {
 };
 
 // ZeroDivide exception class that has inherited MathException class
-class zerodivide : public mathexception {
+class zeroDivideError : public MathException {
     public:
-        zerodivide(const string& err)
-            : errmsg(err) {}
+        zeroDivideError(const string& err)
+            : errMsg(err) {}
+    private:
+        string errMsg;
 };
 
 // NegativeRoot exception class that has inherited MathException class
 
-class NegativeRoot: public mathexception {
+class NegativeRootError: public mathexception {
     public:
-        NegativeRoot(const string& err)
+        NegativeRootError(const string& err)
             : errmsg(err) {}
+    private:
+        string errMsg;
 };
 
 int main(void) {
-    MathException merror("Some Mathematical Error DUDE");
-    cout << merror.getError();
+    try {
+        int divisor = 0;
+        if (divisor == 0)
+            throw ZeroDivideError("Trying to divide by 0");
+    }
+    catch(ZeroDivideError zde) {
+        cout << "HAha dividing by zero 🤣" << endl;
+    }
     return 0;
 }
