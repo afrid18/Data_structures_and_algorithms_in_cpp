@@ -1,45 +1,9 @@
-
-//GameEntry Class definition
-class GameEntry {
-    public:
-        GameEntry(const string& n="", int s = 0);
-        string getName() const;
-        int getScore() const;
-
-    private:
-        string name;
-        int score;
-};
-
-// Public memeber functions of GameEntry class
-
-GameEntry::GameEntry(const string& n="", int s = 0) : name(n), score(s) {}
-string GameEntry::getScore() const {
-    return score;
-}
-int GameEntry::getName() const {
-    return name;
-}
-
-
-// Scores class definition
-
-class Scores {
-    public:
-        Scores(int maxEnt = 10);
-        ~Scores();
-        void add(const GameEntry e);
-        GameEntry remove(int i) throw(IndexOutOfBound);
-
-    private:
-        int maxEntries;
-        int numEntries;
-        GameEntry* entries;
-};
-
 // Public member functions of score class
+#include <iostream>
+#include "GameEntry.h"
+#include "Scores.h"
 
-Scores:Scores(int maxEnt) {
+Scores::Scores(int maxEnt) {
            maxEntries = maxEnt;
            entries = new GameEntry[maxEntries];
            numEntries = 0;
