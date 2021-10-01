@@ -25,7 +25,7 @@ CFLAGS = -g -Wall
 #
 #
 
-GameEntryTest: GameEntryTest.o GameEntry.o Score.o
+GameEntryTest: GameEntryTest.o GameEntry.o Scores.o
 	g++ GameEntryTest.o GameEntry.o Score.o -o GameEntryTest
 
 

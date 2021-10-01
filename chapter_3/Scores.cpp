@@ -1,5 +1,6 @@
 // Public member functions of score class
 #include <iostream>
+#include <exception>
 #include "GameEntry.h"
 #include "Scores.h"
 
@@ -10,10 +11,10 @@ Scores::Scores(int maxEnt) {
        }
 
 Scores::~Scores() {
-    delete[] entires;
+    delete[] entries;
 }
 
-void Scores::add(GameEntry& e) {
+void Scores::add(const GameEntry& e) {
     int newScore = e.getScore();
     if(numEntries == maxEntries) {
         if(newScore <= entries[maxEntries - 1].getScore()) return;
@@ -28,13 +29,18 @@ void Scores::add(GameEntry& e) {
     entries[i+1] = e;
 }
 
-void Scores::remove(int i) throw(IndexOutOfBounds) {
-    if ((i < 0) || (i >= numEntries)) 
-        throw IndexOutOfBounds("Invalid index");
+GameEntry Scores::remove(int i) {
+    try {
+        if ((i < 0) || (i >= numEntries)) 
+            throw "Invalid index";
+    }
+    catch (const char* e) {
+        cout << " IndexOutOfBound" << endl;
+    }
     GameEntry e = entries[i];
     for(int j = i + 1; j < numEntries; ++j) {
         entries[j - 1] = entries[j];
     }
     numEntries--;
-    return;
+    return e;
 }
