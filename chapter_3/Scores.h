@@ -6,6 +6,8 @@ class Scores {
         ~Scores();
         void add(const GameEntry& e);
         GameEntry remove(int i);
+        void printScores();
+        int numEnt();
 
     private:
         int maxEntries;

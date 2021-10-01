@@ -44,3 +44,15 @@ GameEntry Scores::remove(int i) {
     numEntries--;
     return e;
 }
+
+void Scores::printScores() {
+    cout << "Top Player's List" << endl;
+    for(int i = 0; i < numEntries; ++i) {
+        cout << "Name: " << entries[i].getName() << "\t\t\tscore: "<< entries[i].getScore() << endl;
+    }
+    return;
+}
+
+int Scores::numEnt() {
+    return numEntries;
+}

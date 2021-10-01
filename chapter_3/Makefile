@@ -26,7 +26,7 @@ CFLAGS = -g -Wall
 #
 
 GameEntryTest: GameEntryTest.o GameEntry.o Scores.o
-	g++ GameEntryTest.o GameEntry.o Score.o -o GameEntryTest
+	g++ GameEntryTest.o GameEntry.o Scores.o -o GameEntryTest
 
 
 GameEntryTest.o: GameEntryTest.cpp GameEntry.h Scores.h
