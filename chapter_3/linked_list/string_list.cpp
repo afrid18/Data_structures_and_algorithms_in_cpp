@@ -10,6 +10,6 @@ Private:
     StringNode* next;
 
     friend class StringLinkedList;
-}
+};
 
 

@@ -1,4 +1,10 @@
 //GameEntry Class definition
+#ifndef GAMEENTRY_H
+
+#define GAMEENTRY_H
+
+
+
 using namespace std;
 class GameEntry {
     public:
@@ -10,3 +16,6 @@ class GameEntry {
         string name;
         int score;
 };
+
+
+#endif
