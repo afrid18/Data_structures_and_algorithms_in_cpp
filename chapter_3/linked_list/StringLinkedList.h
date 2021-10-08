@@ -5,7 +5,7 @@
 // StringNode data structure that builds the linked list
 
 class StringNode {
-Private:
+private:
     string ele;
     StringNode* next;
 
