@@ -1,5 +1,8 @@
 // StringLinkedList class and member definitions
 //
+//
+#include "StringLinkedList.h"
+using namespace std;
 
 StringLinkedList::StringLinkedList()
     :head(NULL) {}
