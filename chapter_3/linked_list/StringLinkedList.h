@@ -4,6 +4,8 @@
 
 
 // StringNode data structure that builds the linked list
+//
+using namespace std;
 
 
 class StringNode {
@@ -25,6 +27,7 @@ class StringLinkedList {
         const string& front() const;
         void addFront(const string& e);
         void removeFront();
+        void printList() const;
 
     private:
         StringNode* head;

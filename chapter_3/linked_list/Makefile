@@ -1,6 +1,6 @@
 CC=g++-11
 
-flags= -g -wall
+flags= -g -Wall
 
 Target=string_list
 
