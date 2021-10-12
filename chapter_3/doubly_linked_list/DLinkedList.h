@@ -25,8 +25,10 @@ class DlinkedList {
         bool empty() const;
         const Ele& front() const;
         const Ele& back() const;
+        void add(DNode* v, const Ele& e);
         void addFront(const Ele& e);
         void addBack(const Ele& e);
+        void remove(DNode* v);
         void removeFront();
         void removeBack();
 };

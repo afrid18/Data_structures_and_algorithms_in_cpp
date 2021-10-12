@@ -46,3 +46,18 @@ void DLinkedList::addBack(const Ele& e) {
     add(trailer, e);
 }
 
+void DLinkedList::remove(const Ele& v) {
+    DNode* u = v -> prev;
+    DNode* w = v -> next;
+    u -> next = w;
+    w -> prev = u;
+    delete v;
+}
+
+void DLinkedList::removeFront() {
+    remove(header -> next);
+}
+
+void DLinkedList::removeBack() {
+    remove(trailer -> prev);
+}
