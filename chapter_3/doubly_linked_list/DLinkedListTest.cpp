@@ -6,3 +6,4 @@ using namespace std;
 int main(void) {
     DLinkedList* list = new DLinkedList;
 }
+
