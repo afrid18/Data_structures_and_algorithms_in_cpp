@@ -1,6 +1,7 @@
 #ifndef DLINKEDLIST_H
 #define DLINKEDLIST_H 1
 
+using namespace std;
 
 typedef string Ele;
 
@@ -12,7 +13,7 @@ class DNode {
         friend class DLinkedList;
 };
 
-class DlinkedList {
+class DLinkedList {
     private:
         DNode* header;
         DNode* trailer;
@@ -25,12 +26,12 @@ class DlinkedList {
         bool empty() const;
         const Ele& front() const;
         const Ele& back() const;
-        void add(DNode* v, const Ele& e);
         void addFront(const Ele& e);
         void addBack(const Ele& e);
-        void remove(DNode* v);
         void removeFront();
         void removeBack();
+        void printList() const;
+        void rprintList() const;
 };
 
 
