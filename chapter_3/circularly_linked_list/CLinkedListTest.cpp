@@ -16,5 +16,9 @@ int main(void) {
     //print first and last elements
     cout << clist.front() << endl;
     cout << clist.back() << endl;
+
+    // Is list empty?
+    cout << "Is list empty: " << (clist.empty() ? "True" : "False") << endl;
+
     return 0;
 }
