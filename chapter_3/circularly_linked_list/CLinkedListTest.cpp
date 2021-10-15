@@ -15,6 +15,8 @@ int main(void) {
 
     //print first and last elements
     cout << clist.front() << endl;
+    clist.advance();
+    cout << clist.front() << endl;
     cout << clist.back() << endl;
 
     // Is list empty?

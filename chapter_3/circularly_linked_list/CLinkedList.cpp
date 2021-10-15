@@ -54,7 +54,7 @@ void CLinkedList::remove() {
         cursor = NULL;
     }
     else {
-        cursor = old -> next;
+        cursor -> next = old -> next;
     }
     delete old;
 }
