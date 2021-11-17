@@ -24,7 +24,7 @@
 - [x] Analysis Tools
 - [x] Stacks, Queues, and Deques
 - [x] List and Iterator ADTs
-- [ ] Trees _(In progress)_
+- [ ] Trees *
 - [ ] Heaps and Priority Queues
 - [ ] Hash Tables, Maps, and Skip Lists
 - [ ] Search Trees
@@ -32,6 +32,8 @@
 - [ ] Strings and Dynamic Programming
 - [ ] Graph Algorithms
 - [ ] Memory Management and B-Trees
+
+* _(In progress)_ marked as *
 
 
 __8 More chapter to cover!__
