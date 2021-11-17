@@ -24,7 +24,7 @@
 - [x] Analysis Tools
 - [x] Stacks, Queues, and Deques
 - [x] List and Iterator ADTs
-- [ ] Trees
+- [ ] Trees _(In progress)_
 - [ ] Heaps and Priority Queues
 - [ ] Hash Tables, Maps, and Skip Lists
 - [ ] Search Trees
