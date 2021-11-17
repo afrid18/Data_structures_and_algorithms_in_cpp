@@ -6,9 +6,9 @@
 
 
 ### Contributing rules!
-    - Code should have the clear documentation about what it is solving.
-    - Every question should be alloted a new file and there must be question at the start of the file.
-    - There should be there folders each for *Reinforcement*,  *Creativity* and *Projects*.
+* Code should have the clear documentation about what it is solving.
+* Every question should be alloted a new file and there must be question at the start of the file.
+* There should be there folders each for **Reinforcement**,  **Creativity** and **Projects**.
 
 ### _Data Structures and Algorithms in CPP is a book written by Goodrich Michael T._
 [![Data Structures and Algorithms in CPP](./img/book.jpeg)](https://www.amazon.in/Data-Structures-Algorithms-Michael-Goodrich/dp/0470383275)
