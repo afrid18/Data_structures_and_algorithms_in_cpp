@@ -15,4 +15,23 @@
 ### _Data Structures and Algorithms in CPP is a book written by Goodrich Michael T._
 [![Data Structures and Algorithms in CPP](./img/book.jpeg)](https://www.amazon.in/Data-Structures-Algorithms-Michael-Goodrich/dp/0470383275)
 
-- This book is a DSA 
+### Chapters covered!
+
+<!--**Chapter Number** | **Chapter Name** |-->
+- [x] A C++ Primer
+- [x] Object-Oriented Design
+- [x] Arrays, Linked Lists, and Recursion
+- [x] Analysis Tools
+- [x] Stacks, Queues, and Deques
+- [x] List and Iterator ADTs
+- [ ] Trees
+- [ ] Heaps and Priority Queues
+- [ ] Hash Tables, Maps, and Skip Lists
+- [ ] Search Trees
+- [ ] Sorting, Sets, and Selection
+- [ ] Strings and Dynamic Programming
+- [ ] Graph Algorithms
+- [ ] Memory Management and B-Trees
+
+
+__8 More chapter to cover!__
