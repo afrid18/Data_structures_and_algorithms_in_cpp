@@ -18,7 +18,7 @@
 ### Chapters covered!
 
 | **Chapter Number** | **Chapter Name** |
-| :--------------:   | :------------:   |
+| :--------------:   | :------------   |
 | 1 | <ul> <li> - [x] A C++ Primer </li> </ul> |
 | 2 | <ul> <li> - [x] Object-Oriented Design </li> </ul>|
 | 3 | <ul> <li> - [x] Arrays, Linked Lists, and Recursion </li> </ul>|
