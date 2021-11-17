@@ -1,9 +1,10 @@
 # _Data Structures and Algorithms using C++_
     
 > Hello Learners,
-      >> I have started this project to learn DSA using C++ the hard way.
-      >> I believe the only way you can clearly understand, is when you do everything your self.
-      >> All beginners are welcome, and are free to contribute and help me solve the problems of this text book.
+>
+>> I have started this project to learn DSA using C++ the hard way.
+>> I believe the only way you can clearly understand, is when you do everything your self.
+>> All beginners are welcome, and are free to contribute and help me solve the problems of this text book.
 
 
 ### Contributing rules!
