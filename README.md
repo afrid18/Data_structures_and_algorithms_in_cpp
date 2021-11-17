@@ -17,21 +17,22 @@
 
 ### Chapters covered!
 
-<!--**Chapter Number** | **Chapter Name** |-->
-- [x] A C++ Primer
-- [x] Object-Oriented Design
-- [x] Arrays, Linked Lists, and Recursion
-- [x] Analysis Tools
-- [x] Stacks, Queues, and Deques
-- [x] List and Iterator ADTs
-- [ ] Trees *
-- [ ] Heaps and Priority Queues
-- [ ] Hash Tables, Maps, and Skip Lists
-- [ ] Search Trees
-- [ ] Sorting, Sets, and Selection
-- [ ] Strings and Dynamic Programming
-- [ ] Graph Algorithms
-- [ ] Memory Management and B-Trees
+| **Chapter Number** | **Chapter Name** |
+| :--------------:   | :------------:   |
+| 1 | - [x] A C++ Primer |
+| 2 | - [x] Object-Oriented Design |
+| 3 | - [x] Arrays, Linked Lists, and Recursion |
+| 4 | - [x] Analysis Tools |
+| 5 | - [x] Stacks, Queues, and Deques |
+| 6 | - [x] List and Iterator ADTs |
+| 7 | - [ ] Trees * |
+| 8 | - [ ] Heaps and Priority Queues |
+| 9 | - [ ] Hash Tables, Maps, and Skip Lists |
+| 10 | - [ ] Search Trees |
+| 11 | - [ ] Sorting, Sets, and Selection |
+| 12 | - [ ] Strings and Dynamic Programming |
+| 13 | - [ ] Graph Algorithms |
+| 14 | - [ ] Memory Management and B-Trees |
 
 * _(In progress)_ marked as *
 
