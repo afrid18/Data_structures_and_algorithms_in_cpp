@@ -19,20 +19,20 @@
 
 | **Chapter Number** | **Chapter Name** |
 | :--------------:   | :------------:   |
-| 1 | - [x] A C++ Primer |
-| 2 | - [x] Object-Oriented Design |
-| 3 | - [x] Arrays, Linked Lists, and Recursion |
-| 4 | - [x] Analysis Tools |
-| 5 | - [x] Stacks, Queues, and Deques |
-| 6 | - [x] List and Iterator ADTs |
-| 7 | - [ ] Trees * |
-| 8 | - [ ] Heaps and Priority Queues |
-| 9 | - [ ] Hash Tables, Maps, and Skip Lists |
-| 10 | - [ ] Search Trees |
-| 11 | - [ ] Sorting, Sets, and Selection |
-| 12 | - [ ] Strings and Dynamic Programming |
-| 13 | - [ ] Graph Algorithms |
-| 14 | - [ ] Memory Management and B-Trees |
+| 1 | <ul> <li> - [x] A C++ Primer </li> </ul> |
+| 2 | <ul> <li> - [x] Object-Oriented Design </li> </ul>|
+| 3 | <ul> <li> - [x] Arrays, Linked Lists, and Recursion </li> </ul>|
+| 4 | <ul> <li> - [x] Analysis Tools </li> </ul>|
+| 5 | <ul> <li> - [x] Stacks, Queues, and Deques </li> </ul>|
+| 6 | <ul> <li> - [x] List and Iterator ADTs </li> </ul>|
+| 7 | <ul> <li> - [ ] Trees * </li> </ul>|
+| 8 | <ul> <li> - [ ] Heaps and Priority Queues </li> </ul>|
+| 9 | <ul> <li> - [ ] Hash Tables, Maps, and Skip Lists </li> </ul>|
+| 10 | <ul> <li> - [ ] Search Trees </li> </ul>|
+| 11 | <ul> <li> - [ ] Sorting, Sets, and Selection </li> </ul>|
+| 12 | <ul> <li> - [ ] Strings and Dynamic Programming </li> </ul>|
+| 13 | <ul> <li> - [ ] Graph Algorithms </li> </ul>|
+| 14 | <ul> <li> - [ ] Memory Management and B-Trees </li> </ul>|
 
 * _(In progress)_ marked as *
 
