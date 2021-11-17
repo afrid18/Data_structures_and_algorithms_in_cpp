@@ -12,10 +12,6 @@ class StackEmpty : RunTimeException {  // StackEmpty exception handling class im
 typedef int E;
 class Stack {
     public:
- :q
- ls
-
-
         int size() const;
         bool empty() const;
         const E& top() const throw(StackEmpty);
