@@ -38,3 +38,7 @@
 
 
 __8 More chapter to cover!__
+
+
+#### Important Notice🚨 !
+* Contribution should not be copied from any other sources. It should completely on your own.
