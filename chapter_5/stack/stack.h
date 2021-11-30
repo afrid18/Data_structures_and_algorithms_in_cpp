@@ -17,7 +17,12 @@ class Stack {
         const E& top() const throw(StackEmpty);
         void push(const E& ele);
         void pop() throw(StackEmpty);
+        void printer() {
+            cout << "Hello Bhavana!";
+        }
 };
+
+
 
 
 
