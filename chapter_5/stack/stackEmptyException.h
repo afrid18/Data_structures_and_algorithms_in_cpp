@@ -1,9 +1,15 @@
+#ifndef STACKEMPTYEXCEPTION
+#define STACKEMPTYEXCEPTION
+
+
 #include "../../chapter_2/RuntimeException.h"
 
 
-class StackEmpty : RunTimeException {  // StackEmpty exception handling class implementation
+class StackEmpty : public RuntimeException {  // StackEmpty exception handling class implementation
     public:
-        StackEmpty(const string& err) : RunTimeException(err) {}
+        StackEmpty(const string& err) : RuntimeException(err) {}
 };
 
 
+
+#endif
