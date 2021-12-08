@@ -51,6 +51,10 @@ int main(void) {
 
     cout << "Now, the top element is: ";
 
-    cout << afrid.top() << endl;
+    try {
+        cout << afrid.top() << endl;
+    } catch(StackEmpty& e) {
+        cout << "Stack is Empty" << endl;
+    }
     return 0;
 }
