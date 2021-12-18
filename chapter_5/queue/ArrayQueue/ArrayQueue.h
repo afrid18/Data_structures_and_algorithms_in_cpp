@@ -23,7 +23,7 @@ class ArrayQueue {
         bool empty() const;
         const E& frontEle() const;
         void dequeue();
-        void enqueue();
+        void enqueue(const E& ele);
 };
 
 #endif

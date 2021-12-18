@@ -28,8 +28,20 @@ const E& ArrayQueue::frontEle() const {
 }
 
 void ArrayQueue::enqueue(const E& ele) {
-    if(empty()) 
-        throw QueueEmpty("Queue is Empty!");
-    if 
+    if(CURRENT_CAPACITY == TOTAL_CAPACITY) 
+        throw QueueFull("Queue is Full!");
+    else {
+        queue[rear] = ele;
+        rear = (rear + 1) % TOTAL_CAPACITY;
+        CURRENT_CAPACITY++;
+    }
+}
 
+void ArrayQueue::dequeue() {
+    if (empty())
+        throw QueueEmpty("Queue is Empty!");
+    else {
+        front = (front + 1) % TOTAL_CAPACITY;
+        CURRENT_CAPACITY--;
+    }
 }
