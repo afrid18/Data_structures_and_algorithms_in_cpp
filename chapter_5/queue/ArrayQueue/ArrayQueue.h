@@ -1,17 +1,18 @@
 #ifndef ARRAYWUEUE_H
 #define ARRAYQUEUE_H
 
+#include "../QueueException.h"
 
 // Change the type to your required type
 typedef int E;
-enum { DEFAULT_CAPACITY = 100 }
 
+enum {DEFAULT_CAPACITY = 100};
 
 class ArrayQueue {
     private:
         E* queue;
-        int front = 0;
-        int rear = 0;
+        int front;
+        int rear;
         int TOTAL_CAPACITY;
         int CURRENT_CAPACITY;
 
@@ -20,7 +21,7 @@ class ArrayQueue {
         ~ArrayQueue();
         int size() const;
         bool empty() const;
-        int front() const;
+        const E& frontEle() const;
         void dequeue();
         void enqueue();
 };
