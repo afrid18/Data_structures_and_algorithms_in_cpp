@@ -12,8 +12,8 @@ class ArrayVector {
         E& operator[](int i);
         E& at(int i);
         void erase(int i);
-        void insert(int i, const E& ele);
-        void reserve(int i);
+        //void insert(int i, const E& ele);
+        //void reserve(int i);
 
 
     private:
