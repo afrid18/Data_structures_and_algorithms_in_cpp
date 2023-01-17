@@ -3,7 +3,7 @@
 
 #include "../VectorException.h"
 
-template <typename E>
+template <class E>
 class ArrayVector {
     public:
         ArrayVector();

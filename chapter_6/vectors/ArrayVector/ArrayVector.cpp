@@ -5,9 +5,9 @@
 using namespace std;
 
 ArrayVector::ArrayVector() {
-    CAPACITY = 4;
+    capacity = 4;
     int CURRENT_ELEMENTS = 0;
-    E* a = new E[capacity];
+    E& a = new E[capacity];
 }
 
 int ArrayVector::size() const {
