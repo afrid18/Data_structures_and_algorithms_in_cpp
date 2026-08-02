@@ -20,8 +20,8 @@ class SLinkedList {
         SLinkedList();
         ~SLinkedList();
         bool empty() const;
-        const <E>& front() const;
-        void addFront(const <E>& e);
+        const E& front() const;
+        void addFront(const E& e);
         void removeFront();
         void printList();
 };
